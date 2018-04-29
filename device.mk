@@ -22,6 +22,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Inherit from msm8998-common
 $(call inherit-product, device/xiaomi/msm8998-common/msm8998.mk)
 
+# call the prebuilt camera setup
+$(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/MiuiCamera-vendor.mk)
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
