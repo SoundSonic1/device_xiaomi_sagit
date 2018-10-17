@@ -28,6 +28,10 @@ TARGET_KERNEL_CONFIG := sagit_defconfig
 # Assert
 TARGET_OTA_ASSERT_DEVICE := sagit
 
+# LCD Density
+PRODUCT_GENERIC_PROPERTIES += \
+    ro.sf.lcd_density=428
+
 # Lineage Hardware
 BOARD_HARDWARE_CLASS += \
     $(DEVICE_PATH)/lineagehw
