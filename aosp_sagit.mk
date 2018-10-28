@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common AospExtended stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
+# Official AospExtended
+EXTENDED_BUILD_TYPE := OFFICIAL
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
