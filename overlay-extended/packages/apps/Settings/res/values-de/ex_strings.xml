@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 AospExtended ROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About phone screen, Extended version -->
+    <string name="extended_version">AospExtended Version</string>
+    <string name="extended_version_default">Unbekannt</string>
+    <string name="keywords_extended_version">aex version, extended version</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Build Datum</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">build date, build info</string>
+
+    <!-- Fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Finde den Fingerabdrucksense auf der Vorderseite deine Gerätes.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Finde den Fingerabdrucksense auf der linken Seite deine Gerätes.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Finde den Fingerabdrucksense auf der rechten Seite deine Gerätes.</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+    <!-- About AospExtended -->
+    <string name="aex_about_info">Über uns</string>
+    <string name="aex_about_summary">Einleitung und Unser Team</string>
+    <string name="aex_about_info_summary">AospExtended ist ein auf AOSP basierended ROM, welches stock UI/UX mit verschiedenen Erweiterungen anbietet. Das Projekt entstand durch cherry-picken verschiedener commits von anderen Projekten. Auf AOSP basiert zu sein führt zu einer weichen und lag-freien Erfahrung. Wir werden immer versuchen mehr Erweiterungen hinzuzufügen und uns in zukünftigen Updates weiter zu verbessern. &#35;BeExtended</string>
+    <string name="dev_info">Über AospExtended</string>
+    <string name="github">Github</string>
+    <string name="github_description">Schau dir unseren Quellcode an</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">Tritt unser Google+ Community bei</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Abboniere unseren Telegram Channel</string>
+    <string name="web">Download Center</string>
+    <string name="web_description">Besuche unser Download Portal</string>
+    <string name="help_translate">Übersetzungen</string>
+    <string name="help_translate_description">Übersetze auf deine Sprache, besuche unser CrowdIn</string>
+    <string name="walls">Hintergründe</string>
+    <string name="walls_description">Bekomme Hintergründe von verschiedenen Benutzern</string>
+    <string name="leads">Team Leiter</string>
+    <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+    <string name="team1_description">Besitzer/Hauptentwickler</string>
+    <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+    <string name="team2_description">Entwickler</string>
+    <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Moderator und Amateurentwickler</string>
+    <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+    <string name="team4_description">Entwickler</string>
+    <string name="designers">Designer</string>
+    <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+    <string name="designer1_description">Banner, Logos und Hintergründe</string>
+    <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+    <string name="designer2_description">QS/Fling logos</string>
+    <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+    <string name="designer3_description">Hintergründe und Bootanimationen</string>
+    <string name="designer_4">Harsh V23</string>
+    <string name="designer4_description">Erweiterungen UI, Icons</string>
+    <string name="designer_5">Gaurav (allstargaurav)</string>
+    <string name="designer5_description">Erweiterungen UI, Icons und Uhr Styles</string>
+    <string name="maintainers">Maintainers</string>
+    <string name="maintainers_title">Offizielle Betreuer</string>
+    <string name="maintainers_summary">Offiiell unterstützte Geräte und ihre Betreuer.</string>
+
+    <!-- Maintainer section -->
+    <string name="maintainer_description">Maintainer: %1$s</string>
+    <string name="loading_devices">Lädt Geräteliste...</string>
+    <string name="loading_devices_failed">Liste konnte nicht geladen werden</string>
+    <string name="devices_list_empty">Liste ist leer, berühre das Symbol um neuzuladen</string>
+    <string name="reload_list">Neuladen</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Änderungen</string>
+    <string name="changelog_summary">Letzte Änderungen</string>
+    <string name="changelog_loading">Lädt Änderungen\u2026</string>
+    <string name="changelog_error">Konnte Änderungen nicht laden </string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Verstecke das Muster während des Entsperrens</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Entsperre automatisch bei erfolgreicher Eingabe der Pin/ des Passwortes</string>
+
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Beim Laden aufwecken</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wecke das Gerät wenn das Ladegerät angeschloßen wird.</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Lade Vibration</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot Geräusch</string>
+
+    <string name="dashboard_conditions_title">Dashboard Bedingungen</string>
+    <string name="summary_dashboard_conditions_enabled">Dashboard Bedingungen sind aktiviert</string>
+    <string name="summary_dashboard_conditions_disabled">Dashboard Bedingungen sind deaktiviert</string>
+
+    <string name="dashboard_suggestions_title">Dashboard Empfehlungen</string>
+    <string name="summary_dashboard_suggestions_enabled">Dashboard Empfehlungen sind aktiviert</string>
+    <string name="summary_dashboard_suggestions_disabled">Dashboard Empfehlungen sind deaktivier</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Zeige CPU infos</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Bildschirm overlay zeigt aktuelle Werte der CPU</string>
+
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">ADB Benachrichtigung</string>
+    <string name="adb_notify_summary">Zeige eine Benachrichtigung wenn android debugging aktiviert ist</string>
+
+    <!-- Dashboard Category -->
+    <string name="dashboard_category">Dashboard Optionen</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Vermeide unbeabsichtigtes Aufwecken</string>
+    <string name="proximity_wake_summary">Überprüfe den Näherungssesnor vor dem Entsperren</string>
+
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Home Knopf aufwachen</string>
+    <string name="home_wake_button_summary">Aktiviere den Home Knopf zum aufwecken</string>
+
+    <!-- Themes -->
+    <string name="theme_category_title">System Theme</string>
+    <string name="system_theme_style_title">UI style</string>
+    <string name="system_theme_style_auto">Hintergrund basiert</string>
+    <string name="system_theme_style_light">Helle UI</string>
+    <string name="system_theme_style_dark">Dunkle UI</string>
+    <string name="system_theme_style_black">Schwarze UI</string>
+    <string name="system_theme_style_extended">Extended UI</string>
+    <string name="system_theme_style_chocolate">Schokoladen UI</string>
+    <string name="theme_applied_toast">Theme angewandt.</string>
+    <string name="applying_theme_toast">Theme anwenden, warte einen Moment...</string>
+    <string name="substratum_installed_title">System themes sind nicht verfügbar denn ein Substartum Overlay ist installiert. Bitte deinstalliere alle Overlays für Android System um fortzufahren.</string>
+    <string name="force_allow_system_themes_title">Erlaube System Theme und Schriftarten trotz aktiviertem Substratum</string>
+    <string name="force_allow_system_themes_summary">Erlaubt dir folgende Themes und Schirftarten trotz installiertem Substratum zu installieren.</string>
+    <string name="force_theme_warning_title">Warnung !</string>
+    <string name="force_theme_warning_message">Das könnte Konflikte zwischen Substratum Themes und System Themes auslösen. Wir hoffen du weißt was du tust! #DontBlameUsLater :D</string>
+ 
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Statistik zurücksetzen</string>
+    <string name="battery_stats_message">Akku Statistiken werden zurückgesetzt</string>
+    <string name="ok_string">Ok</string>
+
+    <!-- AEX OTA -->
+    <string name="aex_ota_title">AEX Updates</string>
+    <string name="aex_ota_summary">Bleib auf dem laufendem!</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Licht Farbe</string>
+    <string name="custom_light_on_time_title">Licht AN Zeit während pulsierender LED (ms)</string>
+    <string name="custom_light_off_time_title">Licht AUS Zeit während pulsierender LED (ms)</string>
+    <string name="value_equals_default">Standard</string>
+    <string name="show_light_on_zen_title">Blinken während aktiviertem Nicht Stören Modus</string>
+
+    <!-- Density category -->
+    <string name="density_category">Bildschirmgröße</string>
+
+    <!-- Selinux -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Deaktiviert</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">Deaktiviert</string>
+    <string name="sim_missing">Fehlend oder Falsch</string>
+    <string name="sim_enabler_need_disable_sim">SIM Karte wird deaktiviert. Bist du sicher?</string>
+    <string name="sim_enabler_will_disable_sim_title">Achtung</string>
+    <string name="sim_enabler_need_switch_data_service">Diese SIM wird Deaktiviert und SIM <xliff:g id="slotid">%1$s</xliff:g> wird für mobile Daten benutzt. Bist du shicher??</string>
+    <string name="sim_enabler_airplane_on">Diese Funktion kann nicht im Flugzeugmodus ausgeführt werden.</string>
+    <string name="sim_enabler_in_call">Diese Funktion kann nicht während eines Anrufes ausgeführt werden.</string>
+    <string name="sim_enabler_both_inactive">Es können nicht alle SIM Karten deaktiviert werden.</string>
+    <string name="sim_enabler_enabling">Aktivieren\u2026</string>
+    <string name="sim_enabler_disabling">Deaktivieren\u2026</string>
+    <string name="sub_activate_success">SIM aktiviert.</string>
+    <string name="sub_activate_failed">Aktivierung fehlgeschlagen.</string>
+    <string name="sub_deactivate_success">SIM deaktiviert.</string>
+    <string name="sub_deactivate_failed">Deaktivierung fehlgeschlagen.</string>
+
+</resources>
+
