@@ -15,7 +15,7 @@
 #
 
 # call XiaomiCustom
-$(call inherit-product-if-exists, vendor/XiaomiCustom/XiaomiCustom.mk)
+$(call inherit-product-if-exists, vendor/XiaomiCustom/MiuiCamera/MiuiCamera.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
